@@ -37,7 +37,7 @@ This project integrates with the Star Wars API (SWAPI) to fetch and manage data 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/swapi-project.git
+    git clone https://github.com/Shobi172/swapi-project.git
     ```
 
 2. Install dependencies:
