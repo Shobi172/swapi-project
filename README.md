@@ -6,13 +6,21 @@ This project integrates with the Star Wars API (SWAPI) to fetch and manage data 
 ## Features
 
 - **Film Retrieval**: Fetch films from SWAPI and present them through an API endpoint.
+
 - **Character Retrieval**: Access character data from the Star Wars universe and enable searching based on multiple attributes.
+
 - **Planet Retrieval**: Retrieve planet data and filter results based on specific attributes.
+
 - **Commenting on Films**: Allow users to leave comments about the films retrieved.
+
 - **Rating Films**: Enable users to rate the films they interact with.
+
 - **Pagination**: Implement pagination for managing large amounts of data by providing subsets or pages of results.
+
 - **Caching**: Utilize caching mechanisms to store fetched data for optimized retrieval and reduced external API calls.
+
 - **Sorting**: Enable sorting of fetched data based on specified fields or criteria.
+
 - **Cron Job for Data Update**: Schedule periodic updates or synchronization of data from the SWAPI to keep the local data updated.
 
 
@@ -46,6 +54,7 @@ This project integrates with the Star Wars API (SWAPI) to fetch and manage data 
     ```plaintext
     SWAPI_BASE_URL=https://swapi.dev/api/
     MONGODB_URI=your-mongodb-connection-uri
+    PORT=your-port-number 
     ```
 
 ### Usage
